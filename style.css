@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(21, 20, 20);
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+span{
+    font-size: 60px;
+    margin: auto 5px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 52px;
+    color: white;
+}
+
+.time{
+    background: linear-gradient(to bottom, #cc0000 0%, #1500ff 100%); 
+    padding: 0 30px;
+    border-radius: 52px;
+}
+
+#start{
+    background: linear-gradient(to bottom, #000000 37%, #00ccff 100%);
+}
+
+#stop{
+    background: linear-gradient(to bottom, #000000 37%, #01ff01 100%)
+}
+
+#reset{
+    background: linear-gradient(to bottom, #000000 37%, #ff0000 100%);
+}
+
+@media (max-width:450px) {
+    span{
+        font-size: 40px
+    };
+    .btn{
+        padding: 5px;
+    }
+    .time{
+        padding: 5px 10px;
+    }
+}
